@@ -1,9 +1,9 @@
 cask "saturnsql" do
   arch arm: "-arm64"
 
-  version "0.1.1"
-  sha256 arm:   "f58c98aed86474ea85b20f796e1c00501afc26014f759b42fe3286c932d58f35",
-         intel: "cd775b417437125d37fc2be513cbedf5c6c9e13d7f8646754838f262fea18d35"
+  version "0.1.2"
+  sha256 arm:   "474bf985adaeef9249603cb75552380d05e73e0eadb87df9e98685e55c4fe248",
+         intel: "895710a37a1084bfb7fa1ae80611cb4c413d02e4811d27c226efd285de3d2ea9"
 
   url "https://saturnsql.com/downloads/desktop/SaturnSQL-#{version}#{arch}.dmg"
   name "SaturnSQL"
